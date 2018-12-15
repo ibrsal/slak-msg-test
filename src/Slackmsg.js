@@ -10,7 +10,7 @@ class Slackmsg extends React.Component {
  }
  goon() {
   const bot = new Slackbot({
-    token: "xoxb-498515394851-503524933492-niIAA0zKaRU67hQWLCcj3Kr1",
+    token: "",
     name: "class6test"
   });
   bot.on("start", function() {
