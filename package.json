@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@slack/client": "^4.8.0",
+    "axios": "^0.18.0",
+    "bufferutil": "^4.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "slackbots": "^1.2.0",
+    "utf-8-validate": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

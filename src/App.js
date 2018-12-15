@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Slackmsg from './Slackmsg';
 class App extends Component {
   render() {
     return (
@@ -17,8 +17,11 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn 
+
           </a>
+          <Slackmsg />
+
         </header>
       </div>
     );
